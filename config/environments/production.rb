@@ -1,4 +1,9 @@
 Rails.application.configure do
+  
+  # URL options for the Device Mailer
+  config.action_mailer.default_url_options = { host: 'myegoapp-darren-vandyke.herokuapp.com' }
+  
+  
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Code is not reloaded between requests.
