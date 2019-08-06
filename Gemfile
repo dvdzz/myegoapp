@@ -65,3 +65,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'simple_form'
 gem 'devise'
 gem 'carrierwave', '~> 0.11.2'
+gem 'figaro', '~> 1.1', '>= 1.1.1'
+gem 'fog-aws', '~> 0.7.6'
